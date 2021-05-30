@@ -17,9 +17,13 @@ The rooms can be booked on single, double or triple occupancy. The rates for one
 
 
 Number of Guests	Bed & Breakfast	Half-Board	Full-Board
+
 Single	$15.00	$24.00	$30.00
+
 Double	$22.00	$34.00	$38.00
+
 Triple	$27.00	$39.00	$45.00
+
 
 
 Guests are also needed to inform if they need a parking spot, in room amenities(Free of Charge), Planned arrival/ check-in time & provide any special notes at the time of making the reservation.
