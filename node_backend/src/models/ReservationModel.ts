@@ -5,12 +5,12 @@ export interface IReservation extends Document {
   room: ObjectId;
   checkinDateTime: Date;
   numberOfNights: number;
-  boardingtype: string;
+  boardingType: string;
   numberOfGuest: number;
   paymentType: string;
   parking: boolean;
   roomAmenities: boolean;
-  notes: string;
+  note: string;
   cancellationStatus: boolean;
   cancellationDateTime: Date;
   amount: number;
@@ -21,12 +21,12 @@ const ReservationSchema: Schema = new Schema({
   room: { type: Schema.Types.ObjectId, ref: "Room", required: true },
   checkinDateTime: { type: Date, required: true },
   numberOfNights: { type: Number, required: true },
-  boardingtype: { type: String, required: true },
+  boardingType: { type: String, required: true },
   numberOfGuest: { type: Number, required: true },
   paymentType: { type: String, required: true },
   parking: { type: Boolean, required: true },
   roomAmenities: { type: Boolean, required: true },
-  notes: { type: String, required: true },
+  note: { type: String, required: true },
   cancellationStatus: { type: Boolean, required: true },
   cancellationDateTime: { type: Date },
   amount: { type: Number, required: true },
